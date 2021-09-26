@@ -1,4 +1,4 @@
-{% set version = "0.4-4" %}
+{% set version = "0.4-5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spBayes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spBayes/spBayes_{{ version }}.tar.gz
-  sha256: 9cf88f994fdeb3b82b1acd1b62fe812f6dbf01a987d1186b565ae8cd207c080c
+  sha256: 51da7d6d4102964af6dafcdeacf30d929590715bba719ba82a3fed40843f50e2
 
 build:
   merge_build_host: true  # [win]
