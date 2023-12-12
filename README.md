@@ -3,6 +3,7 @@ About r-spbayes-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spbayes-feedstock/blob/main/LICENSE.txt)
 
+
 About r-spbayes
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://www.finley-lab.com
 Package license: GPL-2.0-or-later
 
 Summary: Fits univariate and multivariate spatio-temporal random effects models for point-referenced data using Markov chain Monte Carlo (MCMC). Details are given in Finley, Banerjee, and Gelfand (2015) <doi:10.18637/jss.v063.i13> and Finley, Banerjee, and Cook (2014) <doi:10.1111/2041-210X.12189>.
+
 About r-spbayes
 ---------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
