@@ -1,4 +1,4 @@
-{% set version = "0.4-8" %}
+{% set version = "0.4-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spBayes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spBayes/spBayes_{{ version }}.tar.gz
-  sha256: 0d2e1f7ab859b6f6ff2b386709382fb953cad6b6295ac93ff07396e9145f569e
+  sha256: 3beccf2eaa9896278c6f2d19cf77c72157fbd50f84d8c85a2a86865757507131
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
